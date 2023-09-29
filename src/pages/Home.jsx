@@ -4,6 +4,7 @@ import Bruchetta from '../assets/bruchetta.jpg'
 import LemonDessert from '../assets/lemon-dessert.jpg'
 import GreekSalad from '../assets/greek-salad.jpg'
 import Delivery from '../assets/delivery.svg'
+import { NavLink } from 'react-router-dom'
 
 
 export default function Home() {
