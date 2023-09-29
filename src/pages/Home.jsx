@@ -5,6 +5,13 @@ import LemonDessert from '../assets/lemon-dessert.jpg'
 import GreekSalad from '../assets/greek-salad.jpg'
 import Delivery from '../assets/delivery.svg'
 import { NavLink } from 'react-router-dom'
+import ManInHat from '../assets/man-in-hat.jpg'
+import Star from '../assets/star.png'
+import OldLady from '../assets/old-lady.jpg'
+import AsianGuy from '../assets/asian-guy.jpg'
+import BlackLady from '../assets/black-female.jpg'
+import Owners from '../assets/owners.jpg'
+import Founders from '../assets/founders.jpg'
 
 
 export default function Home() {
@@ -83,10 +90,98 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='w-[90%] '>
-        <h3 className=''>Testimonials</h3>
-        <div>
+      <section className='w-[100%] mx-auto h-fit pt-[56px] flex flex-col gap-9 overflow-hidden'>
+        <h3 className='pl-[8%]'>Testimonials</h3>
+        {/* container for various testimonies */}
+        <div className='relative w-screen overflow-x-auto px-6'>
 
+          <div className='w-fit flex gap-6'>
+            <div className='flex flex-col bg-secondary-400 h-[238px] w-[226px] rounded-2xl gap-[23px] py-[13px] px-[16px]'>
+              <div className='flex'>
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+              </div>
+
+              <div className='flex justify-start items-center gap-4'>
+                <img src={AsianGuy} alt="Asian guy" className='h-[87px] w-[87px] rounded-full'/>
+                <p className='text-white font-semibold'>Thod Boehly</p>
+              </div>
+
+              <p className='text-center text-[12px] text-secondary-300'>‘’ I really enjoy their food. They are the best in town’’</p>
+            </div>
+
+            <div className='flex flex-col bg-secondary-400 h-[238px] w-[226px] rounded-2xl gap-[23px] py-[13px] px-[16px]'>
+              <div className='flex'>
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+              </div>
+
+              <div className='flex justify-start items-center gap-4'>
+                <img src={OldLady} alt="Old lady" className='h-[87px] w-[87px] rounded-full'/>
+                <p className='text-white font-semibold'>Emma Kokk</p>
+              </div>
+
+              <p className='text-center text-[12px] text-secondary-300'>‘’ They prepare their food just as I want. They have good customer service‘’</p>
+            </div>
+
+            <div className='flex flex-col bg-secondary-400 h-[238px] w-[226px] rounded-2xl gap-[23px] py-[13px] px-[16px]'>
+              <div className='flex '>
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+              </div>
+
+              <div className='flex justify-start items-center gap-4'>
+                <img src={ManInHat} alt="Sampson" className='h-[87px] w-[87px] rounded-full'/>
+                <p className='text-white font-semibold'>Sampson</p>
+              </div>
+
+              <p className='text-center text-[12px] text-secondary-300'>‘’ If you are looking for the best restaurant, then you have come to the right place ‘’</p>
+            </div>
+
+            <div className='flex flex-col bg-secondary-400 h-[238px] w-[226px] rounded-2xl gap-[23px] py-[13px] px-[16px]'>
+              <div className='flex'>
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+                <img src={Star} alt="star" className='w-8 h-7' />
+              </div>
+
+              <div className='flex justify-start items-center gap-4'>
+                <img src={BlackLady} alt="Black woman" className='h-[87px] w-[87px] rounded-full'/>
+                <p className='text-white font-semibold'>Cindy</p>
+              </div>
+
+              <p className='text-center text-[12px] text-secondary-300'>‘’ They have the best desert in town.‘’</p>
+            </div>
+
+            </div>
+         
+
+          </div>
+      </section>
+
+      <section className='w-[90%] pt-[70px]'>
+        <div>
+          <div>
+            <h2>Little Lemon</h2>
+            <p>Chicago</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          
+          <div>
+            <img src={Founders} alt="" />
+            <img src={Owners} alt="" />
+          </div>
         </div>
       </section>
     </>
