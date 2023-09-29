@@ -19,7 +19,11 @@ export default function Home() {
               
             <p className='text-base font-medium text-white md:text-[24px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
               
-            <button className='bg-yellow px-[16px] md:px-[32px]  py-[8px] md:py-[16px] rounded-2xl font-semibold w-fit text-secondary-400 md:text-[20px]'>Reserve a Table</button>
+            <button className='bg-yellow px-[16px] md:px-[32px]  py-[8px] md:py-[16px] rounded-2xl font-semibold w-fit text-secondary-400 md:text-[20px]'>
+              <NavLin>
+                Reserve a Table
+              </NavLin>
+            </button>
           </div>
 
           <div className='hidden md:block bg-white w-[50%]'>
