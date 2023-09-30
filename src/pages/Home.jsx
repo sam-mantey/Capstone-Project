@@ -10,12 +10,12 @@ import Star from '../assets/star.png'
 import OldLady from '../assets/old-lady.jpg'
 import AsianGuy from '../assets/asian-guy.jpg'
 import BlackLady from '../assets/black-female.jpg'
-import Owners from '../assets/owners.jpg'
-import Founders from '../assets/founders.jpg'
+import Owners from '../assets/Mario-Adrian-b.jpg'
+import Founders from '../assets/Mario-Adrian-a.jpg'
 
 
 export default function Home() {
-  return (
+  return ( 
     <>
       <main className='w-[100vw] bg-deep-green h-[60vh] flex justify-center' >
         <div className='justify-self-center flex justify-center items-center h-full w-[90%] md:w-[85%]mx-auto'>
@@ -95,7 +95,7 @@ export default function Home() {
         {/* container for various testimonies */}
         <div className='relative w-screen overflow-x-auto px-6'>
 
-          <div className='w-fit flex gap-6'>
+          <div className='w-fit flex gap-6 pb-6'>
             <div className='flex flex-col bg-secondary-400 h-[238px] w-[226px] rounded-2xl gap-[23px] py-[13px] px-[16px]'>
               <div className='flex'>
                 <img src={Star} alt="star" className='w-8 h-7' />
@@ -168,19 +168,21 @@ export default function Home() {
           </div>
       </section>
 
-      <section className='w-[90%] pt-[70px]'>
-        <div>
-          <div>
-            <h2>Little Lemon</h2>
-            <p>Chicago</p>
-            <p>
+      <section className='w-[90%] pt-[70px] mx-auto'>
+        <div className='flex flex-col gap-[39px]'>
+          <div className='text-center '>
+            <div className='pb-4'>
+              <h2 className='text-lg'>Little Lemon</h2>
+              <p className='text-base'>Chicago</p>
+            </div>
+            <p className='text-[12px]'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
           
-          <div>
-            <img src={Founders} alt="" />
-            <img src={Owners} alt="" />
+          <div className='flex items-center relative pt-20'>
+            <img src={Founders} alt="Mario and Adrian" className='h-[140px]  absolute right-0 top-[-10px]'/>
+            <img src={Owners} alt="Mario and Adrian" className='h-[140px]'/>
           </div>
         </div>
       </section>

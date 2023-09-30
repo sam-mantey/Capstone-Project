@@ -15,7 +15,7 @@ export default function Nav() {
     <> 
         <nav className='flex items-center justify-between w-[100vw] md:max-w-[90vw]mx-auto my-[10px] px-[16px]'>
           <div>
-            <NavLink to={'/'}>
+            <NavLink to={'/'} onClick={toggleMenu}>
               <img src={Logo} alt="Logo" />
             </NavLink>
             </div>
