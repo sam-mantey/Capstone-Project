@@ -12,6 +12,8 @@ export default {
         'secondary-400': '#333333',
         'gray': '#D9D9D9',
         'secondary-300': '#EDEFEE',
+        'pink':'#FBDABB',
+        'orange': '#EE9972'
       }
     },
   },
