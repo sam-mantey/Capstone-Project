@@ -5,8 +5,8 @@ import Logo from '../assets/Logo.svg'
 export default function Footer() {
   return (
     <>
-      <footer className='relative bottom-0 w-screen bg-gray h-fit mt-32'>
-        <div className='w-[90%] md:w-[80%] lg:w-[70%] h-fit mx-auto flex  flex-col md:flex-row  justify-evenly  gap-12 p-10 text-center md:text-left'>
+      <footer className='relative w-screen bg-gray h-fit mt-32'>
+        <div className='w-[90%] md:w-[80%] lg:w-[70%] h-fit mx-auto flex  flex-col md:flex-row  justify-evenly lg:justify-between  gap-12 p-10 text-center md:text-left'>
 
           <div className='hidden md:block'>
             <img src={Logo} alt="" className='h-[40px] w-[148px]'/>
